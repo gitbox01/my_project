@@ -1,9 +1,17 @@
+import b
 print()
 print('*** Hello, Git! ***')
 print()
 print('Индексация - это важно')
 print()
-print('Create new branch "testing"')
+print('15')
 print()
-for num in range(10):
-        print(num + num,end=' ')
+ind = 0
+sum = 0
+
+while ind <= 9:
+        sum += ind
+        print(sum)
+        ind += 1
+
+print(b.any_func(2, sum))
