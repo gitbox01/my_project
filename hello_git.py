@@ -9,8 +9,8 @@ sum = 0
 s = ()
 while ind <= 9:
         sum += ind
-        s += sum
-        print(sum, sep = '  ')
+        s.append(sum)
+        print(s)
         ind += 1
 
 print(b.any_func(2, sum))
