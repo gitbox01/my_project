@@ -10,9 +10,8 @@ s = []
 while ind <= 9:
         sum += ind
         s.append(sum)
-        print(s)
         ind += 1
-
+print(s)
 print(b.any_func(2, sum))
 print(f'\nYour current directory: {os.getcwd()}')
 
