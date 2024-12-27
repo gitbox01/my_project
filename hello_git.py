@@ -6,8 +6,10 @@ print('Индексация - это важно')
 
 ind = 0
 sum = 0
+s = ()
 while ind <= 9:
         sum += ind
+        s += sum
         print(sum, sep = '  ')
         ind += 1
 
