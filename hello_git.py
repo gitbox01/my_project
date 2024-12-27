@@ -6,7 +6,7 @@ print('Индексация - это важно')
 
 ind = 0
 sum = 0
-s = ()
+s = []
 while ind <= 9:
         sum += ind
         s.append(sum)
